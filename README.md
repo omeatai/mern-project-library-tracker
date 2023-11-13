@@ -144,11 +144,19 @@ nodemon server.js
 
 <img width="1360" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/1715c083-dbe1-4dda-9150-4d9ded83a191">
 
+# POST/CREATE BOOK
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/151175f6-a417-4547-ac91-bbeb18867af7">
+
+# GET ALL BOOKS
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3d6b9d0d-c627-487d-b336-6e75d32d10de">
+
 # ATLAS MONGODB
 
 <img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2b531e9f-9e2a-48db-872f-bb9cf357e5e5">
 
-
+<img width="1186" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5ebe7293-9508-4ee8-bc50-dc2cbc96e4fa">
 
 # #End</details>
 
