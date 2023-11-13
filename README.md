@@ -61,6 +61,9 @@ yarn add express mongoose cors dotenv
 sudo npm install -g nodemon
 ```
 
+<img width="1101" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/bc7e1c78-d24d-45fe-ac5c-129414028c6c">
+
+
 # #End</details>
 
 <details>
