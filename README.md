@@ -18,9 +18,9 @@ This is a modern Library Borrow Tracker application built with React, Node, Expr
 <details>
 <summary>1. Create React App</summary>
 
-### [https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e](https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e)
-
 # Create React App
+
+### [https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e](https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e)
 
 ```x
 yarn create react-app .
@@ -31,9 +31,9 @@ yarn create react-app .
 # #End</details>
 
 <details>
-<summary>2. Install Dependencies for backend </summary>
+<summary>2. Install Dependencies for Backend </summary>
 
-# Install Dependencies for backend
+# Install Dependencies for Backend
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/2d613a6a2ab200f6481cdc7af8e3a6532264557a](https://github.com/omeatai/mern-project-library-tracker/commit/2d613a6a2ab200f6481cdc7af8e3a6532264557a)
 
