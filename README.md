@@ -73,6 +73,24 @@ sudo npm install -g nodemon
 
 # Create Backend Server
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/3a9652e5f33d3e4e129692bbadc9d50888a86b5c](https://github.com/omeatai/mern-project-library-tracker/commit/3a9652e5f33d3e4e129692bbadc9d50888a86b5c)
+
+# Start Server
+
+```x
+cd backend
+nodemon server.js
+```
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/a5f3af93-3a79-444b-b957-c7e9ea337a88">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ed4c30ee-e6db-4550-9c3f-a0008a5d627f">
+
+# #End</details>
+
+<details>
+<summary>4. Connect to MongoDB Database with Mongoose </summary>
+
+# Connect to MongoDB Database with Mongoose
 
 # #End</details>
 
