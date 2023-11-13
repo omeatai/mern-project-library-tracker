@@ -117,9 +117,24 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>6. Create API routes for CRUD </summary>
+<summary>6. Create API routes for CREATE AND GET USERS </summary>
 
-# Create API routes for CRUD
+# Create API routes for CREATE AND GET USERS
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62](https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62)
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/979ada54-e519-48d7-97b8-0cd3aaf145dd">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/10661982-1ccb-4523-b682-6b977bc0d269">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/87c41391-e563-42df-9be2-daed098266fe">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/4354266e-c12c-479b-8de5-545e035644f5">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/a3f1c470-b518-47a0-883c-9c5de7324f81">
+
+# #End</details>
+
+<details>
+<summary>7.TEST API routes for CREATE AND GET USERS with POSTMAN</summary>
+
+# TEST API routes for CREATE AND GET USERS with POSTMAN
 
 
 # #End</details>
