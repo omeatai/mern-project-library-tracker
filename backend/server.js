@@ -7,9 +7,15 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5500;
 
+const booksRouter = require("./routes/books");
+const usersRouter = require("./routes/users");
+
 //middlewares
 app.use(cors());
 app.use(express.json());
+
+app.use("/books", booksRouter);
+app.use("/users", usersRouter);
 
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, {});
