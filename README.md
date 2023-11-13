@@ -132,7 +132,7 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>7.TEST API routes for CREATE AND GET USERS with POSTMAN</summary>
+<summary>7. TEST API routes for CREATE AND GET USERS with POSTMAN</summary>
 
 # TEST API routes for CREATE AND GET USERS with POSTMAN
 
