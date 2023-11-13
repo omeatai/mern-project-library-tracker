@@ -104,9 +104,23 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>5. Create Mongoose Schema </summary>
+<summary>5. Create Mongoose Models and Schema </summary>
 
-# Create Mongoose Schema
+# Create Mongoose Models and Schema
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/c30a97574a110c9936e635700fe85c322645bdd4](https://github.com/omeatai/mern-project-library-tracker/commit/c30a97574a110c9936e635700fe85c322645bdd4)
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5767d9f9-49bb-499a-9f69-64d654f265aa">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/01a994c2-dcee-43be-81bf-46ea28cb35d7">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/cb1729f1-9559-4011-9b49-826daefc4270">
+
+# #End</details>
+
+<details>
+<summary>6. Create API routes for CRUD </summary>
+
+# Create API routes for CRUD
+
 
 # #End</details>
 
