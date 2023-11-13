@@ -62,7 +62,7 @@ sudo npm install -g nodemon
 ```
 
 <img width="1101" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/bc7e1c78-d24d-45fe-ac5c-129414028c6c">
-
+<img width="1101" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/a5cf7b43-8f8a-41d6-8ec6-4b83224c6c6f">
 
 # #End</details>
 
@@ -72,10 +72,8 @@ sudo npm install -g nodemon
 # Create Backend Server
 
 
-
 # #End</details>
 
-# #End</details>
 
 
 
