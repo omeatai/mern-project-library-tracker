@@ -117,9 +117,9 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>6. Create API routes for CREATE AND GET USERS </summary>
+<summary>6. Create API routes for CREATE AND GET USERS AND BOOKS </summary>
 
-# Create API routes for CREATE AND GET USERS
+# Create API routes for CREATE AND GET USERS AND BOOKS
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62](https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62)
 
@@ -132,9 +132,22 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>7. Test API routes for CREATE AND GET USERS with POSTMAN</summary>
+<summary>7. Test API routes for CREATE AND GET USERS AND BOOKS with POSTMAN</summary>
 
-# TEST API routes for CREATE AND GET USERS with POSTMAN
+# Test API routes for CREATE AND GET USERS AND BOOKS with POSTMAN
+
+# POST/CREATE USER 
+
+<img width="1360" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/e42d5e66-368c-4c70-be94-fc20ddaf5280">
+
+# GET ALL USERS
+
+<img width="1360" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/1715c083-dbe1-4dda-9150-4d9ded83a191">
+
+# ATLAS MONGODB
+
+<img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2b531e9f-9e2a-48db-872f-bb9cf357e5e5">
+
 
 
 # #End</details>
