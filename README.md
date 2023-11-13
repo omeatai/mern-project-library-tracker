@@ -92,6 +92,22 @@ nodemon server.js
 
 # Connect to MongoDB Database with Mongoose
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/d7a5b66d79d926cf26bffd72e2f62a55d78888a7](https://github.com/omeatai/mern-project-library-tracker/commit/d7a5b66d79d926cf26bffd72e2f62a55d78888a7)
+
+<img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d7b1562f-31a9-4d12-8565-f29e4e18a19f">
+<img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/de394043-4a5a-4b86-a701-f5b8d0194b05">
+<img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/b3e4a538-9a26-42f7-85ec-40989d82b29f">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/021a0f83-a529-43a1-ba7b-655e6cc72d7a">
+<img width="1024" alt="Screenshot 2023-11-13 at 7 32 33 AM" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/c7dbddd8-4152-4d7a-859d-92fa7fe1364f">
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/37a2052d-be9d-4589-8ce4-27408ab6cd5a">
+
+# #End</details>
+
+<details>
+<summary>5. Create Mongoose Schema </summary>
+
+# Create Mongoose Schema
+
 # #End</details>
 
 
