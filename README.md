@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Mern Project - Library Borrow Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This is a modern Library Borrow Tracker application built with React, Node, Express and MongoDB by Ifeanyi Omeata.
 
-In the project directory, you can run:
+## Development Tools/Stack
 
-### `yarn start`
+- React [https://react.dev/](https://react.dev/)
+- Node [https://nodejs.org/en/](https://nodejs.org/en/)
+- Express [https://expressjs.com/](https://expressjs.com/)
+- MongoDB [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Steps (Tutorial)
 
-### `yarn test`
+<details>
+<summary>1. Create React App</summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### [https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e](https://github.com/omeatai/mern-library-tracker/commit/b450864d806dd7394e99b0068e7fa13dc7801c6e)
 
-### `yarn build`
+# Create React App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```x
+yarn create react-app .
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1101" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/9d3685f6-d603-4151-8fb8-ab0bdf70dbb5">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>2. Install Dependencies for backend </summary>
 
-### `yarn eject`
+# Install Dependencies for backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Create Backend Folder
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```x
+mkdir backend
+cd backend
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Intialise npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```x
+npm init -y
+```
 
-## Learn More
+# Install Dependencies for backend (Express, Mongoose, Cross-Origin-Resource-Sharing and DotENV)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```x
+npm install express mongoose cors dotenv
+yarn add express mongoose cors dotenv
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install Nodemon
 
-### Code Splitting
+```x
+sudo npm install -g nodemon
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# #End</details>
 
-### Analyzing the Bundle Size
+<details>
+<summary>3. Create Backend Server </summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Create Backend Server
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+# #End</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# #End</details>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
