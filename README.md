@@ -117,9 +117,9 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>6. Create API routes for CREATE AND GET USERS AND BOOKS </summary>
+<summary>6. Create API routes for CREATE AND GET ALL OF USERS AND BOOKS </summary>
 
-# Create API routes for CREATE AND GET USERS AND BOOKS
+# Create API routes for CREATE AND GET ALL OF USERS AND BOOKS
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62](https://github.com/omeatai/mern-project-library-tracker/commit/8c1a951d99bddcc22a11e1fa1aa6027af676fa62)
 
@@ -132,9 +132,9 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>7. Test API routes for CREATE AND GET USERS AND BOOKS with POSTMAN</summary>
+<summary>7. Test API routes for CREATE AND GET ALL OF USERS AND BOOKS with POSTMAN</summary>
 
-# Test API routes for CREATE AND GET USERS AND BOOKS with POSTMAN
+# Test API routes for CREATE AND GET ALL OF USERS AND BOOKS with POSTMAN
 
 # POST/CREATE USER 
 
@@ -157,6 +157,56 @@ nodemon server.js
 <img width="1187" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2b531e9f-9e2a-48db-872f-bb9cf357e5e5">
 
 <img width="1186" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5ebe7293-9508-4ee8-bc50-dc2cbc96e4fa">
+
+# #End</details>
+
+<details>
+<summary>8. Create API routes for GET BY ID, UPDATE AND DELETE OF USERS AND BOOKS</summary>
+
+# Create API routes for GET BY ID, UPDATE AND DELETE OF USERS AND BOOKS
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/a247c390a14276a719bf46eea43c177d12daa4f8](https://github.com/omeatai/mern-project-library-tracker/commit/a247c390a14276a719bf46eea43c177d12daa4f8)
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/17c5f437-b47b-4402-9da9-e1a398433d5a">
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2472e9d0-50bc-4d6b-87a0-de92a86c18fb">
+
+<img width="1024" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/648e90e3-4080-49e0-a3fa-87f16d6721c4">
+
+# #End</details>
+
+<details>
+<summary>9. Test API routes for GET BY ID, UPDATE AND DELETE OF USERS AND BOOKS with POSTMAN</summary>
+
+# Test API routes for GET BY ID, UPDATE AND DELETE OF USERS AND BOOKS with POSTMAN
+
+# GET BY ID USER 
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/14e8fa5c-0741-4d2b-ab2f-495d2105501f">
+
+# UPDATE USER 
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/025017bd-3111-4920-b728-b31985daee6f">
+
+# DELETE USER 
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/933d9ebb-cac5-4c83-8651-cba92e7c92c4">
+
+# GET BY ID BOOK
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/f89fb4c6-b1d3-4689-b340-36bd0dd47f82">
+
+# UPDATE BOOK
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ac103251-6b68-4800-b389-83c03c01f1b3">
+
+# DELETE BOOK
+
+<img width="1302" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/baae7f10-cbf9-4bd1-83ec-01852903334a">
+
+# ATLAS MONGODB
+
+<img width="1185" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/188aa66a-e1a6-4026-89c8-eb4e1d51bed2">
 
 # #End</details>
 
