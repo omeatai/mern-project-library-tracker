@@ -236,6 +236,55 @@ npm run start
 
 # Setup TailwindCSS
 
+# To Install Bootstrap
+
+```x
+npm install bootstrap
+```
+
+```x
+import "bootstrap/dist/css/bootstrap.min.css"
+```
+
+# To install TailwindCSS
+
+```x
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+# tailwind.config.js
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+# index.css
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+# Run React App
+
+```x
+npm run start
+```
+
+<img width="1271" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/7e115d66-38f5-48f8-94f3-62af846e1303">
+
+
 # #End</details>
 
 
