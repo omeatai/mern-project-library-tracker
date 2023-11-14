@@ -292,6 +292,38 @@ npm run start
 <img width="1025" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/23fa87d0-32ce-4c34-a644-b3498f22a9ff">
 <img width="1272" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5b93f13d-fe2a-4de2-b44f-3cd8adb6965a">
 
+# #End</details>
+
+<details>
+<summary>12. Setup Components and Navbar with React-Router-DOM </summary>
+
+# Setup Components and Navbar with React-Router-DOM
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/dfc1332121c455368d85edc05944de0fa90a8fb5](https://github.com/omeatai/mern-project-library-tracker/commit/dfc1332121c455368d85edc05944de0fa90a8fb5)
+
+# Install React-Router-DOM
+
+```x
+npm install react-router-dom
+```
+
+# Install React Headless UI 
+
+```x
+npm install @headlessui/react
+```
+
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d17dd0e6-d416-4f91-8f14-b11d7f7cd9d5">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d80783e6-791b-466c-a6aa-d4664259951f">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/4fadf25d-5104-4503-bc4b-e65870a16611">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/bd1cff55-a1c2-4922-807a-53442430b3f1">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/f6d1e989-cd20-4a8c-9550-74530bbb657a">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/7e80d7ea-1ac5-414f-a6ee-08034cda8951">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/157b0fb4-abd2-4c9e-a482-49757ebcd77d">
+<img width="1027" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/c168c7b1-a7c7-4ac8-9743-6901eced4548">
+<img width="1168" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ea95bbcc-6ad2-442e-8244-4b0f00c8953b">
+<img width="1168" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d269988e-ca32-4ca6-a3af-79b2c1b8b789">
+
 
 # #End</details>
 
