@@ -211,9 +211,30 @@ nodemon server.js
 # #End</details>
 
 <details>
-<summary>10. Create </summary>
+<summary>10. Setup React App </summary>
 
-# Create
+# Setup React App
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/310176864c6713656cda468b99316b41fecf6ef9](https://github.com/omeatai/mern-project-library-tracker/commit/310176864c6713656cda468b99316b41fecf6ef9)
+
+# Start React App
+
+```x
+npm run start
+```
+
+<img width="1019" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ed214662-6b58-4f43-8c98-7875bdf5e118">
+<img width="1019" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/8325106c-c191-4263-b864-93837cd72196">
+<img width="1019" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3367703b-736b-4bb4-aef6-3f29ed5207f7">
+<img width="1019" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d23c5ff7-68d5-4678-bb80-50c75b163988">
+<img width="1270" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/7ccd46da-1790-4506-8d5c-072c41f5a98b">
+
+# #End</details>
+
+<details>
+<summary>11. Setup TailwindCSS </summary>
+
+# Setup TailwindCSS
 
 # #End</details>
 
