@@ -30,8 +30,6 @@ yarn create react-app .
 
 # #End</details>
 
-+BACKEND
-
 <details>
 <summary>2. Install Dependencies for Backend </summary>
 
@@ -211,8 +209,6 @@ nodemon server.js
 <img width="1185" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/188aa66a-e1a6-4026-89c8-eb4e1d51bed2">
 
 # #End</details>
-
-+FRONTEND
 
 <details>
 <summary>10. Create </summary>
