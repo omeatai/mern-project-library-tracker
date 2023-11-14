@@ -10,6 +10,7 @@ This is a modern Library Borrow Tracker application built with React, Node, Expr
 - Node [https://nodejs.org/en/](https://nodejs.org/en/)
 - Express [https://expressjs.com/](https://expressjs.com/)
 - MongoDB [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register)
+- Tailwindcss [https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
 
 ## Demo
 
