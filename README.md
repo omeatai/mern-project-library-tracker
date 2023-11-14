@@ -283,6 +283,11 @@ npm run start
 ```
 
 <img width="1271" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/7e115d66-38f5-48f8-94f3-62af846e1303">
+<img width="1025" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5c44c611-ada7-4cd0-bc50-8994a653619c">
+<img width="1025" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/dd352271-c8c4-4485-91a8-4feebe353930">
+<img width="1025" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/aa7da5bd-0048-4778-8b20-fd0a9a056a88">
+<img width="1025" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/23fa87d0-32ce-4c34-a644-b3498f22a9ff">
+<img width="1272" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5b93f13d-fe2a-4de2-b44f-3cd8adb6965a">
 
 
 # #End</details>
