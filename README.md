@@ -324,6 +324,25 @@ npm install @headlessui/react
 <img width="1168" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ea95bbcc-6ad2-442e-8244-4b0f00c8953b">
 <img width="1168" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d269988e-ca32-4ca6-a3af-79b2c1b8b789">
 
+# #End</details>
+
+<details>
+<summary>13. Create Book Component - Setup React Context API Logic with States </summary>
+
+# Create Book Component - Setup React Context API Logic with States
+
+# Install Date-FNS
+
+```x
+npm install date-fns
+```
+
+# Install Material UI
+
+```x
+npm install @mui/material @emotion/react @emotion/styled
+yarn add @mui/material @emotion/react @emotion/styled
+```
 
 # #End</details>
 
