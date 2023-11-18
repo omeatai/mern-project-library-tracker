@@ -52,6 +52,24 @@ export const BookContextProvider = (props) => {
     console.log(book);
   }, [borrower, book]);
 
+  useEffect(() => {
+    const borrowDuration = Number(book.duration);
+    if (Number.isInteger(borrowDuration)) {
+      // It is indeed a number
+      console.log(borrowDuration);
+      function addDays(days) {
+        let result = new Date();
+        result.setDate(result.getDate() + days);
+        return result;
+      }
+      const newReturnDate = addDays(borrowDuration);
+      setBook({
+        ...book,
+        returnDate: newReturnDate,
+      });
+    }
+  }, [book.duration]);
+
   const onChangeHandler = (event) => {
     setBook({
       ...book,
