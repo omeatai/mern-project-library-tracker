@@ -365,6 +365,17 @@ npm install date-fns
 <img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/022c1186-5ba7-4335-a3e7-c20984b4687d">
 <img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ad24992f-3fc6-4cd3-a842-547014413ddf">
 
+# #End</details>
+
+<details>
+<summary>14. Create Book Component - Adjust ReturnDate based on Duration </summary>
+
+# Adjust ReturnDate based on Duration 
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/faf671648f1d55940ffcab4b4c1fa330f66d4d9b](https://github.com/omeatai/mern-project-library-tracker/commit/faf671648f1d55940ffcab4b4c1fa330f66d4d9b)
+
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/786bc2d7-6d68-4a43-9f92-5d42b7b7e8f7">
+<img width="1215" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/756fd3de-cb79-4f73-9b59-26783b54d60e">
 
 # #End</details>
 
