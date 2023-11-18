@@ -331,6 +331,8 @@ npm install @headlessui/react
 
 # Create Book Component - Setup React Context API States with Create Book Logic
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2](https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2)
+
 # Install Material UI
 
 ```x
@@ -354,6 +356,10 @@ yarn add dayjs
 npm install date-fns
 ```
 
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d87396f7-a3fd-4cae-b442-be8402d92f0a">
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5d46bff8-259a-421b-ba35-09c858b8e399">
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/fc574d18-8065-45d5-bcf4-bf39daa9ad1d">
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/15bfbf22-869e-4090-af9c-6b2b76013feb">
 <img width="1252" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/4d9fe7f5-7d2e-4897-ae89-ae0ba28c3725">
 <img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/14e3caee-7dba-45ca-9e8f-9cdc32ed6216">
 <img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/022c1186-5ba7-4335-a3e7-c20984b4687d">
