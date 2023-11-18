@@ -327,15 +327,9 @@ npm install @headlessui/react
 # #End</details>
 
 <details>
-<summary>13. Create Book Component - Setup React Context API Logic with States </summary>
+<summary>13. Create Book Component - Setup React Context API States with Create Book Logic </summary>
 
-# Create Book Component - Setup React Context API Logic with States
-
-# Install Date-FNS
-
-```x
-npm install date-fns
-```
+# Create Book Component - Setup React Context API States with Create Book Logic
 
 # Install Material UI
 
@@ -343,6 +337,28 @@ npm install date-fns
 npm install @mui/material @emotion/react @emotion/styled
 yarn add @mui/material @emotion/react @emotion/styled
 ```
+
+# Install React MUI Date Picker
+
+```x
+npm install @mui/x-date-pickers
+npm install dayjs
+
+yarn add @mui/x-date-pickers
+yarn add dayjs
+```
+
+# Install Date-FNS
+
+```x
+npm install date-fns
+```
+
+<img width="1252" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/4d9fe7f5-7d2e-4897-ae89-ae0ba28c3725">
+<img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/14e3caee-7dba-45ca-9e8f-9cdc32ed6216">
+<img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/022c1186-5ba7-4335-a3e7-c20984b4687d">
+<img width="1217" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ad24992f-3fc6-4cd3-a842-547014413ddf">
+
 
 # #End</details>
 
