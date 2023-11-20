@@ -22,10 +22,21 @@ export const UserContextProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_HOST}/users`)
-      .then((response) => response.json())
-      .then((data) => setUsers(data))
-      .catch((error) => console.error(error));
+    axios
+      .get(`${process.env.REACT_APP_HOST}/users`)
+      .then((response) => {
+        if (response.data.length > 0) {
+          setUsers(response.data);
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+    // fetch(`${process.env.REACT_APP_HOST}/users`)
+    //   .then((response) => response.json())
+    //   .then((data) => setUsers(data))
+    //   .catch((error) => console.error(error));
   }, []);
 
   const onSubmitHandler = (event) => {

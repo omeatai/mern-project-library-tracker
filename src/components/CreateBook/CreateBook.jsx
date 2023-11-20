@@ -6,16 +6,12 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { Button, Stack, TextField, Autocomplete } from "@mui/material";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CreateBook = () => {
-  const {
-    book,
-    setBook,
-    bookErrors,
-    onChangeHandler,
-    onSubmitHandler,
-    topRef,
-  } = useContext(BookContext);
+  const { book, setBook, onChangeHandler, onSubmitHandler, topRef } =
+    useContext(BookContext);
   const { user, setUser, users } = useContext(UserContext);
 
   const usersOptions = users.map((user) => ({
@@ -32,15 +28,18 @@ const CreateBook = () => {
               Create Book Log
             </h1>
             <hr className="border-t-4 border-gray-600 my-4" />
-            {bookErrors &&
-              bookErrors.map((err, index) => (
-                <p
-                  key={index}
-                  className="text-red-600 font-medium my-4 text-center"
-                >
-                  {`- ${err}`}
-                </p>
-              ))}
+            <ToastContainer
+              position="bottom-left"
+              autoClose={3000}
+              hideProgressBar={false}
+              newestOnTop
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="colored"
+            />
             <Stack spacing={2}>
               {/* Username */}
               <Autocomplete
