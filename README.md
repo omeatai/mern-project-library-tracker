@@ -331,9 +331,9 @@ npm install @headlessui/react
 # #End</details>
 
 <details>
-<summary>13. Create Book Component - Setup React Context API States </summary>
+<summary>13. Setup React Context API States </summary>
 
-# Create Book Component - Setup React Context API States
+# Setup React Context API States
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2](https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2)
 
