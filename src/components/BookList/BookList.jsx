@@ -5,6 +5,11 @@ const { format } = require("date-fns");
 
 const BookList = () => {
   const { books, topRef } = useContext(BookContext);
+
+  const formatDate = (date) => {
+    return format(new Date(date), "yyyy-MM-dd");
+  };
+
   return (
     <main className="m-8" ref={topRef}>
       <section>
@@ -38,7 +43,7 @@ const BookList = () => {
                     </p>
                     <p>
                       <span className="font-bold">Published Date: </span>
-                      {format(new Date(book.publishedDate), "yyyy-MM-dd")}
+                      {formatDate(book.publishedDate)}
                     </p>
                     <p>
                       <span className="font-bold">Description: </span>
@@ -50,11 +55,11 @@ const BookList = () => {
                     </p>
                     <p>
                       <span className="font-bold">Borrowed Date: </span>
-                      {format(new Date(book.borrowedDate), "yyyy-MM-dd")}
+                      {formatDate(book.borrowedDate)}
                     </p>
                     <p>
                       <span className="font-bold">Return Date: </span>
-                      {format(new Date(book.returnDate), "yyyy-MM-dd")}
+                      {formatDate(book.returnDate)}
                     </p>
                   </div>
                   <hr className="border-t-4 border-red-400 my-4" />
@@ -93,39 +98,38 @@ const BookList = () => {
                 </tr>
               </thead>
               <tbody>
-                {books.length > 0 ? (
-                  books.map((book, index) => (
-                    <tr key={book._id}>
-                      <td className="p-4">{index + 1}</td>
-                      <td className="p-4">{book.title}</td>
-                      <td className="p-4">{book.username}</td>
-                      <td className="p-4">{book.author}</td>
-                      <td className="p-4">{book.genre}</td>
-                      <td className="p-4">{book.ISBN}</td>
-                      <td className="p-4">
-                        {format(new Date(book.publishedDate), "yyyy-MM-dd")}
-                      </td>
-                      <td className="p-4">{book.description}</td>
-                      <td className="p-4">Malcolm Lockyer</td>
-                      <td className="p-4">1961</td>
-                      <td className="p-4">1961</td>
-                      <td className="p-4">
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                          Edit
-                        </button>
-                      </td>
-                      <td className="p-4">
-                        <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-                          Delete
-                        </button>
-                      </td>
-                    </tr>
-                  ))
-                ) : (
-                  <h2>No Books borrowed.</h2>
-                )}
+                {books.length > 0
+                  ? books.map((book, index) => (
+                      <tr key={book._id}>
+                        <td className="p-4">{index + 1}</td>
+                        <td className="p-4">{book.title}</td>
+                        <td className="p-4">{book.username}</td>
+                        <td className="p-4">{book.author}</td>
+                        <td className="p-4">{book.genre}</td>
+                        <td className="p-4">{book.ISBN}</td>
+                        <td className="p-4">
+                          {formatDate(book.publishedDate)}
+                        </td>
+                        <td className="p-4">{book.description}</td>
+                        <td className="p-4">{book.duration} Days</td>
+                        <td className="p-4">{formatDate(book.borrowedDate)}</td>
+                        <td className="p-4">{formatDate(book.returnDate)}</td>
+                        <td className="p-4">
+                          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Edit
+                          </button>
+                        </td>
+                        <td className="p-4">
+                          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                    ))
+                  : null}
               </tbody>
             </table>
+            {!books.length && "No books found."}
           </div>
         </div>
       </section>
