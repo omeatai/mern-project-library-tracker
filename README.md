@@ -11,6 +11,10 @@ This is a modern Library Borrow Tracker application built with React, Node, Expr
 - Express [https://expressjs.com/](https://expressjs.com/)
 - MongoDB [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register)
 - Tailwindcss [https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+- React-Toastify [https://www.npmjs.com/package/react-toastify](https://www.npmjs.com/package/react-toastify)
+- Date-fns [https://date-fns.org/docs/Getting-Started](https://date-fns.org/docs/Getting-Started)
+- Lodash [https://lodash.com/](https://lodash.com/)
+- Axios [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
 
 ## Demo
 
@@ -327,9 +331,9 @@ npm install @headlessui/react
 # #End</details>
 
 <details>
-<summary>13. Create Book Component - Setup React Context API States with Create Book Logic </summary>
+<summary>13. Create Book Component - Setup React Context API States </summary>
 
-# Create Book Component - Setup React Context API States with Create Book Logic
+# Create Book Component - Setup React Context API States
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2](https://github.com/omeatai/mern-project-library-tracker/commit/ea7830b06d2d95e24926cefadd141e72ae68d5c2)
 
@@ -383,6 +387,46 @@ npm install date-fns
 <summary>15. Create User Component - Setup Create User Logic </summary>
 
 # Create User Component - Setup Create User Logic
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/ec471988fcbd407d1d7847b842e0c3581117cf14](https://github.com/omeatai/mern-project-library-tracker/commit/ec471988fcbd407d1d7847b842e0c3581117cf14)
+
+# Install Lodash
+
+```x
+npm i --save lodash
+```
+
+# Install Axios
+
+```x
+npm i axios
+```
+
+# Install Toastify
+
+```x
+npm install --save react-toastify
+yarn add react-toastify
+```
+
+<img width="1297" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/cf89c333-34df-4037-bf61-4102ee80c730">
+<img width="1297" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/b30ba7ba-fd5a-4b53-ad86-b933c9f5e1b3">
+<img width="1297" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/5c307b62-aa50-4944-958f-4b31b2148bb2">
+<img width="1297" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/560f8b7a-9908-43a5-8546-5e0d39e53b14">
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/705dfdbb-e1c7-418d-b5d4-cd329cefa7e9">
+<img width="1011" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/92d5dd87-13d6-4703-894e-4c36f4a4fb0c">
+<img width="1299" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/69a7e3a8-b7e2-4e85-97e5-28a556e1e74b">
+<img width="1299" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/605db3a5-e43a-4805-9ccb-d264feaac3b8">
+<img width="1299" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/559d620d-6d9f-42c2-bd06-03541773c1f2">
+<img width="1250" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3e308d91-1e7d-4f1c-b829-857ecea9b698">
+<img width="1290" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/28aa53dd-7e81-43fe-a602-ea7c2727ff74">
+
+# #End</details>
+
+<details>
+<summary>16. Create Book Component - Setup Create Book Logic </summary>
+
+# Create Book Component - Setup Create Book Logic
 
 # #End</details>
 
