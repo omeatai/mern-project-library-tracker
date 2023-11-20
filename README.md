@@ -428,6 +428,26 @@ yarn add react-toastify
 
 # Create Book Component - Setup Create Book Logic
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/25f11b356a3f4faf96445a9e91f22e9757be4e56](https://github.com/omeatai/mern-project-library-tracker/commit/25f11b356a3f4faf96445a9e91f22e9757be4e56)
+
+<img width="1010" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/dab881e0-e0f5-431c-be52-6043335b4c9c">
+<img width="1010" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0fab3573-12a7-4d21-972e-b766b093cfa7">
+<img width="1298" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/d95472c8-c756-42c9-98ab-a52fbcacad8c">
+<img width="1038" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/f36bda88-40d6-495e-b934-7fb8b4af6277">
+<img width="1298" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/c06caec3-c377-4ba4-ac68-1e796a7bf2ce">
+<img width="1298" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ab3d97ff-bf00-426c-bf27-e951f0d8f995">
+<img width="1251" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/78d1a19d-cbbf-469b-81f2-9c90e976268e">
+<img width="1297" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0d3d2a71-0c8d-4b7d-a283-928811f5a4e4">
+
+# #End</details>
+
+<details>
+<summary>17. List Book Component - Setup List Book Logic </summary>
+
+# List Book Component - Setup List Book Logic
+
+
+
 # #End</details>
 
 
