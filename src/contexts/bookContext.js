@@ -87,10 +87,12 @@ export const BookContextProvider = (props) => {
       !book.description ||
       !book.duration
     ) {
-      window.scrollTo(0, topRef.current.offsetTop);
+      //   window.scrollTo(0, topRef.current.offsetTop);
+      topRef.current.scrollIntoView({ behavior: "smooth" });
       setBookErrors(["All required fields should be filled."]);
       return;
     }
+    setBookErrors([]);
     console.log({ username: borrower.username, ...book });
     navigate("/");
   };
