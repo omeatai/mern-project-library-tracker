@@ -455,6 +455,12 @@ yarn add react-toastify
 <img width="1371" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/846de0e7-b367-41ae-81c2-7a702857b8e6">
 <img width="1371" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2c57425d-e9b7-453e-87d5-65b484b66c69">
 
+# #End</details>
+
+<details>
+<summary>18. List Book Component - Setup Delete Book Logic </summary>
+
+# List Book Component - Setup Delete Book Logic
 
 # #End</details>
 
