@@ -62,6 +62,13 @@ export const BookContextProvider = (props) => {
       });
   }, []);
 
+  useEffect(() => {
+    setBorrower({
+      username: user?.label,
+      id: user?.id,
+    });
+  }, [user]);
+
   const checkDuration = (duration) => {
     const borrowDuration = Number(duration);
     if (!Number.isInteger(borrowDuration) || borrowDuration < 1) {
@@ -88,6 +95,23 @@ export const BookContextProvider = (props) => {
     return true;
   };
 
+  const onDeleteHandler = (id) => {
+    axios
+      .delete(`${process.env.REACT_APP_HOST}/books/${id}`)
+      .then((response) => {
+        if (response.data.length > 0) {
+          console.log(response.data);
+        }
+        const updatedBooks = books.filter((book) => book._id !== id);
+        toast.success("Book Log deleted successfully!", toastifyConfig);
+        setBooks(updatedBooks);
+      })
+      .catch((error) => {
+        console.error(error);
+        toast.error(`Error: ${error}`, toastifyConfig);
+      });
+  };
+
   const onChangeHandler = (event) => {
     setBook({
       ...book,
@@ -102,11 +126,6 @@ export const BookContextProvider = (props) => {
       toast.error("Please select a user!", toastifyConfig);
       topRef.current.scrollIntoView({ behavior: "smooth" });
       return;
-    } else {
-      setBorrower({
-        username: user.label,
-        id: user.id,
-      });
     }
 
     if (!checkDuration(book.duration)) {
@@ -156,6 +175,7 @@ export const BookContextProvider = (props) => {
         setBook,
         onChangeHandler,
         onSubmitHandler,
+        onDeleteHandler,
         topRef,
       }}
     >

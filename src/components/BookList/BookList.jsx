@@ -4,7 +4,7 @@ import { BookContext } from "../../contexts/bookContext";
 const { format } = require("date-fns");
 
 const BookList = () => {
-  const { books, topRef } = useContext(BookContext);
+  const { books, topRef, onDeleteHandler } = useContext(BookContext);
 
   const formatDate = (date) => {
     return format(new Date(date), "yyyy-MM-dd");
@@ -67,7 +67,11 @@ const BookList = () => {
                     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
                       Edit
                     </button>
-                    <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-8 rounded">
+
+                    <button
+                      onClick={() => onDeleteHandler(book._id)}
+                      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-8 rounded"
+                    >
                       Delete
                     </button>
                   </div>
@@ -120,7 +124,10 @@ const BookList = () => {
                           </button>
                         </td>
                         <td className="p-4">
-                          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                          <button
+                            onClick={() => onDeleteHandler(book._id)}
+                            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                          >
                             Delete
                           </button>
                         </td>
@@ -129,7 +136,9 @@ const BookList = () => {
                   : null}
               </tbody>
             </table>
-            {!books.length && "No books found."}
+            <div className="hidden md:block">
+              {!books.length && "No books found."}
+            </div>
           </div>
         </div>
       </section>
