@@ -462,6 +462,37 @@ yarn add react-toastify
 
 # List Book Component - Setup Delete Book Logic
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/a0bc82e6013fcc4ac631be52c8fa3ab6171f5bdf](https://github.com/omeatai/mern-project-library-tracker/commit/a0bc82e6013fcc4ac631be52c8fa3ab6171f5bdf)
+
+<img width="1008" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/6453f657-c4a5-43ae-ac76-b193be97fcfd">
+<img width="1008" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/b27eaaba-60bf-48c8-bfbd-79690fecc53b">
+<img width="1243" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ccdab27a-6614-4ead-968d-f6c0c4bba43e">
+<img width="1243" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/c9b2165e-05cf-4d29-8219-db22f21b0c2f">
+<img width="1243" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0b88e886-afb2-40a8-b1de-1159c3759397">
+<img width="1243" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/cb263df5-ef75-43da-a891-37f52bd04ae1">
+
+# #End</details>
+
+<details>
+<summary>19. Edit Book Component - Setup Edit Book Logic </summary>
+
+# Edit Book Component - Setup Edit Book Logic
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/427d31476fecd7de54e21d5e0bf3e31455691dd5](https://github.com/omeatai/mern-project-library-tracker/commit/427d31476fecd7de54e21d5e0bf3e31455691dd5)
+
+<img width="1008" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/74bf2d6e-6088-4697-8aa2-d3212bb6afba">
+<img width="1008" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/2e0722fb-5961-4dcc-a7d6-81735387502f">
+<img width="1243" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/9f5a2f6c-1c87-493b-ac97-1379922da2f2">
+<img width="1247" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/1017020a-4dc9-4372-ae49-8d191e554f3e">
+<img width="1245" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/e78a7eb7-5edd-47f2-aab0-74a725c5fbd4">
+
+# #End</details>
+
+<details>
+<summary>20. List User Component - Setup List User Logic </summary>
+
+# List User Component - Setup List User Logic 
+
 # #End</details>
 
 
