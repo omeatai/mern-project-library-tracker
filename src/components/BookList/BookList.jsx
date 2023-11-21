@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BookContext } from "../../contexts/bookContext";
 const { format } = require("date-fns");
@@ -64,9 +64,11 @@ const BookList = () => {
                   </div>
                   <hr className="border-t-4 border-red-400 my-4" />
                   <div className="flex justify-around">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
-                      Edit
-                    </button>
+                    <Link to={`/edit/${book._id}`}>
+                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
+                        Edit
+                      </button>
+                    </Link>
 
                     <button
                       onClick={() => onDeleteHandler(book._id)}
@@ -119,9 +121,11 @@ const BookList = () => {
                         <td className="p-4">{formatDate(book.borrowedDate)}</td>
                         <td className="p-4">{formatDate(book.returnDate)}</td>
                         <td className="p-4">
-                          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Edit
-                          </button>
+                          <Link to={`/edit/${book._id}`}>
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                              Edit
+                            </button>
+                          </Link>
                         </td>
                         <td className="p-4">
                           <button

@@ -46,6 +46,7 @@ export const BookContextProvider = (props) => {
   const [borrower, setBorrower] = useState(INITIAL_BORROWER_STATE);
   const [books, setBooks] = useState([]);
   const [book, setBook] = useState(INITIAL_BOOK_STATE);
+  const [editBook, setEditBook] = useState(INITIAL_BOOK_STATE);
 
   const { user } = useContext(UserContext);
 
@@ -60,7 +61,7 @@ export const BookContextProvider = (props) => {
       .catch((error) => {
         console.error(error);
       });
-  }, []);
+  }, [books]);
 
   useEffect(() => {
     setBorrower({
@@ -119,6 +120,54 @@ export const BookContextProvider = (props) => {
     });
   };
 
+  const onChangeEditHandler = (event) => {
+    setEditBook({
+      ...editBook,
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  //Edit Book Log
+  const onEditHandler = (event) => {
+    event.preventDefault();
+
+    if (!checkDuration(editBook.duration)) {
+      return;
+    }
+
+    if (
+      !editBook.title ||
+      !editBook.author ||
+      !editBook.ISBN ||
+      !editBook.description ||
+      !editBook.duration
+    ) {
+      toast.error("All required fields should be filled.", toastifyConfig);
+
+      //   window.scrollTo(0, topRef.current.offsetTop);
+      topRef.current.scrollIntoView({ behavior: "smooth" });
+      return;
+    }
+
+    axios
+      .put(`${process.env.REACT_APP_HOST}/books/${editBook._id}`, editBook)
+      .then((response) => {
+        console.log(response.data);
+        console.log(books);
+        setEditBook(INITIAL_BOOK_STATE);
+        setBooks([]);
+        toast.success("Book Log Edited successfully!", toastifyConfig);
+        topRef.current.scrollIntoView({ behavior: "smooth" });
+        navigate("/");
+      })
+      .catch((error) => {
+        // Handle the error here
+        console.error(error);
+        toast.error(`Error: ${error}`, toastifyConfig);
+      });
+  };
+
+  // Create a new book log
   const onSubmitHandler = (event) => {
     event.preventDefault();
 
@@ -141,7 +190,6 @@ export const BookContextProvider = (props) => {
       !book.duration
     ) {
       toast.error("All required fields should be filled.", toastifyConfig);
-      console.log(borrower, book);
       //   window.scrollTo(0, topRef.current.offsetTop);
       topRef.current.scrollIntoView({ behavior: "smooth" });
       return;
@@ -176,6 +224,10 @@ export const BookContextProvider = (props) => {
         onChangeHandler,
         onSubmitHandler,
         onDeleteHandler,
+        onEditHandler,
+        onChangeEditHandler,
+        editBook,
+        setEditBook,
         topRef,
       }}
     >
