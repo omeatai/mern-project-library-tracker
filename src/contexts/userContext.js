@@ -32,12 +32,24 @@ export const UserContextProvider = ({ children }) => {
       .catch((error) => {
         console.error(error);
       });
-
-    // fetch(`${process.env.REACT_APP_HOST}/users`)
-    //   .then((response) => response.json())
-    //   .then((data) => setUsers(data))
-    //   .catch((error) => console.error(error));
   }, []);
+
+  const onDeleteHandler = (id) => {
+    axios
+      .delete(`${process.env.REACT_APP_HOST}/users/${id}`)
+      .then((response) => {
+        if (response.data.length > 0) {
+          console.log(response.data);
+        }
+        const updatedUsers = users.filter((book) => book._id !== id);
+        toast.success("User Log deleted successfully!", toastifyConfig);
+        setUsers(updatedUsers);
+      })
+      .catch((error) => {
+        console.error(error);
+        toast.error(`Error: ${error}`, toastifyConfig);
+      });
+  };
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
@@ -90,6 +102,7 @@ export const UserContextProvider = ({ children }) => {
         setUsername,
         topRef,
         onSubmitHandler,
+        onDeleteHandler,
       }}
     >
       {children}
