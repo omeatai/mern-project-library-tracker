@@ -489,9 +489,9 @@ yarn add react-toastify
 # #End</details>
 
 <details>
-<summary>20. List User Component - Setup List User Logic </summary>
+<summary>20. List User Component - Setup List and Delete User Logic </summary>
 
-# List User Component - Setup List User Logic 
+# List User Component - Setup List and Delete User Logic 
 
 # #End</details>
 
