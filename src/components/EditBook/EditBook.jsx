@@ -26,7 +26,7 @@ const EditBook = () => {
       .catch((error) => {
         console.error(error);
       });
-  }, [id]);
+  }, [id, setEditBook]);
 
   return (
     <main className="m-8" ref={topRef}>
