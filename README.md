@@ -517,6 +517,15 @@ yarn add react-toastify
 
 # #End</details>
 
+<details>
+<summary>22. Deploy Project with CI/CD </summary>
+
+# Deploy Project with CI/CD
+
+
+
+# #End</details>
+
 
 
 
