@@ -522,6 +522,10 @@ yarn add react-toastify
 
 # Deploy Project with CI/CD
 
+<img width="1146" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/8498cc6f-bad3-4b98-9f3f-dfc5df9a094d">
+<img width="1318" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/8dc7c5e6-e5eb-46c7-89bf-639021d07146">
+
+
 
 
 # #End</details>
