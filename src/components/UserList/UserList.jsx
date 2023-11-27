@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../contexts/userContext";
 
@@ -22,7 +22,7 @@ const UserList = () => {
 
                   <hr className="border-t-4 border-red-400 my-4" />
                   <div className="flex justify-around">
-                    <Link to={`/edit/${user._id}`}>
+                    <Link to={`/user/edit/${user._id}`}>
                       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
                         Edit
                       </button>
@@ -61,7 +61,7 @@ const UserList = () => {
                           <td className="p-4">{index + 1}</td>
                           <td className="p-4">{user.username}</td>
                           <td className="p-4">
-                            <Link to={`/edit/${user._id}`}>
+                            <Link to={`/user/edit/${user._id}`}>
                               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                 Edit
                               </button>
@@ -81,7 +81,7 @@ const UserList = () => {
                 </tbody>
               </table>
               <div className="hidden md:block">
-                {!users.length && "No books found."}
+                {!users.length && "No User found."}
               </div>
             </div>
             <div></div>

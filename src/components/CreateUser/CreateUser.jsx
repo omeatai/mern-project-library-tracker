@@ -5,8 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const CreateUser = () => {
-  const { username, setUsername, topRef, onSubmitHandler } =
-    useContext(UserContext);
+  const { user, setUser, topRef, onSubmitHandler } = useContext(UserContext);
 
   return (
     <main className="m-8" ref={topRef}>
@@ -30,13 +29,18 @@ const CreateUser = () => {
             <Stack spacing={2}>
               {/* Author */}
               <TextField
-                label="Username*"
+                label="User"
                 variant="outlined"
                 id="username"
                 name="username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
+                value={user?.username || ""}
+                onChange={(e) =>
+                  setUser((prev) => {
+                    return { ...prev, username: e.target.value };
+                  })
+                }
                 placeholder="John Doe"
+                required={true}
               />
               <Button variant="contained" type="submit">
                 Add User

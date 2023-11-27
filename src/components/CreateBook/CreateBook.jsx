@@ -65,6 +65,7 @@ const CreateBook = () => {
                       style: { maxHeight: 200, overflow: "auto" },
                     }}
                     fullWidth
+                    required={true}
                   />
                 )}
                 isOptionEqualToValue={(option, value) => {
@@ -73,23 +74,25 @@ const CreateBook = () => {
               />
               {/* Title */}
               <TextField
-                label="Title*"
+                label="Title"
                 variant="outlined"
                 id="title"
                 name="title"
                 value={book.title || ""}
                 onChange={(e) => onChangeHandler(e)}
                 placeholder="The Great Gatsby"
+                required={true}
               />
               {/* Author */}
               <TextField
-                label="Author*"
+                label="Author"
                 variant="outlined"
                 id="author"
                 name="author"
                 value={book.author || ""}
                 onChange={(e) => onChangeHandler(e)}
                 placeholder="F. Scott Fitzgerald"
+                required={true}
               />
               {/* Genre */}
               <TextField
@@ -100,16 +103,18 @@ const CreateBook = () => {
                 value={book.genre || ""}
                 onChange={(e) => onChangeHandler(e)}
                 placeholder="Fiction, Classic"
+                required={false}
               />
               {/* ISBN */}
               <TextField
-                label="ISBN*"
+                label="ISBN"
                 variant="outlined"
                 id="ISBN"
                 name="ISBN"
                 value={book.ISBN || ""}
                 onChange={(e) => onChangeHandler(e)}
                 placeholder="9780743273565"
+                required={true}
               />
               {/* Published Date */}
               <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -125,6 +130,7 @@ const CreateBook = () => {
                     }}
                     sx={{ width: "100%" }}
                     inputFormat="yyyy-MM-dd'T'HH:mm:ss.SSSz"
+                    required={false}
                   />
                 </DemoContainer>
               </LocalizationProvider>
@@ -139,6 +145,7 @@ const CreateBook = () => {
                 placeholder="A novel set in the summer of 1922, exploring themes of decadence, idealism, and the American Dream...."
                 value={book.description || ""}
                 onChange={(e) => onChangeHandler(e)}
+                required={true}
               />
               {/* Duration */}
               <TextField
@@ -149,6 +156,7 @@ const CreateBook = () => {
                 value={book.duration || ""}
                 onChange={(e) => onChangeHandler(e)}
                 placeholder="10 (in Days)"
+                required={true}
               />
 
               <Button variant="contained" type="submit">
