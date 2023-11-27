@@ -506,7 +506,14 @@ yarn add react-toastify
 
 # Edit User Component - Setup Edit User Logic 
 
+### [https://github.com/omeatai/mern-project-library-tracker/commit/01b0963d5107d8d4bc052a7b53f928b6f6c72cc2](https://github.com/omeatai/mern-project-library-tracker/commit/01b0963d5107d8d4bc052a7b53f928b6f6c72cc2)
 
+<img width="1148" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/7ca61773-5c95-478d-aa1a-b7110cb84089">
+<img width="1148" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/e898d6fb-5137-494b-a3cd-489ce696cc6c">
+<img width="1306" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/888f0127-9246-4bb1-8303-54d56f31db2a">
+<img width="1306" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/863c7f08-08ca-45c7-837e-08f98a16340a">
+<img width="1306" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/70c6fa44-856a-4c18-a848-805ba258d4a7">
+<img width="1251" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/63238774-ac79-47e5-9947-e34175fc6eea">
 
 # #End</details>
 
