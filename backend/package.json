@@ -10,7 +10,7 @@
     "restart": "pm2 restart server.js",
     "stop": "pm2 stop all",
     "delete": "pm2 delete all",
-    "logs": "pm2 logs"
+    "list": "pm2 list"
   },
   "keywords": [],
   "author": "",
