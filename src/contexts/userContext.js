@@ -12,6 +12,24 @@ export const UserContextProvider = ({ children }) => {
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState(null);
 
+  const REACT_APP_HOST =
+    process.env.NODE_ENV === "production"
+      ? process.env.REACT_APP_API_URL_PROD
+      : process.env.REACT_APP_API_URL_DEV;
+
+  useEffect(() => {
+    axios
+      .get(`${REACT_APP_HOST}/users`)
+      .then((response) => {
+        if (response.data.length > 0) {
+          setUsers(response.data);
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, [REACT_APP_HOST]);
+
   const toastifyConfig = {
     position: "bottom-left",
     autoClose: 3000,
@@ -23,22 +41,9 @@ export const UserContextProvider = ({ children }) => {
     theme: "colored",
   };
 
-  useEffect(() => {
-    axios
-      .get(`${process.env.REACT_APP_HOST}/users`)
-      .then((response) => {
-        if (response.data.length > 0) {
-          setUsers(response.data);
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
-
   const onDeleteHandler = (id) => {
     axios
-      .delete(`${process.env.REACT_APP_HOST}/users/${id}`)
+      .delete(`${REACT_APP_HOST}/users/${id}`)
       .then((response) => {
         if (response) {
           console.log(response.data);
@@ -66,7 +71,7 @@ export const UserContextProvider = ({ children }) => {
     }
 
     axios
-      .put(`${process.env.REACT_APP_HOST}/users/${user._id}`, {
+      .put(`${REACT_APP_HOST}/users/${user._id}`, {
         username: user.username,
       })
       .then((response) => {
@@ -105,7 +110,7 @@ export const UserContextProvider = ({ children }) => {
     }
 
     axios
-      .post(`${process.env.REACT_APP_HOST}/users/`, {
+      .post(`${REACT_APP_HOST}/users/`, {
         username: _.startCase(_.toLower(user.username)),
       })
       .then((response) => {

@@ -10,9 +10,14 @@ const EditUser = () => {
   const { setUser, user, onEditHandler, topRef } = useContext(UserContext);
   const { id } = useParams();
 
+  const REACT_APP_HOST =
+    process.env.NODE_ENV === "production"
+      ? process.env.REACT_APP_API_URL_PROD
+      : process.env.REACT_APP_API_URL_DEV;
+
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_APP_HOST}/users/${id}`)
+      .get(`${REACT_APP_HOST}/users/${id}`)
       .then((response) => {
         // console.log(response.data);
         setUser(response.data);

@@ -16,9 +16,14 @@ const EditBook = () => {
     useContext(BookContext);
   const { id } = useParams();
 
+  const REACT_APP_HOST =
+    process.env.NODE_ENV === "production"
+      ? process.env.REACT_APP_API_URL_PROD
+      : process.env.REACT_APP_API_URL_DEV;
+
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_APP_HOST}/books/${id}`)
+      .get(`${REACT_APP_HOST}/books/${id}`)
       .then((response) => {
         // console.log(response.data);
         setEditBook(response.data);
@@ -26,7 +31,7 @@ const EditBook = () => {
       .catch((error) => {
         console.error(error);
       });
-  }, [id, setEditBook]);
+  }, [id, setEditBook, REACT_APP_HOST]);
 
   return (
     <main className="m-8" ref={topRef}>
