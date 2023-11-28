@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const cors = require("cors");
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const app = express();
 const port = process.env.PORT || 8000;
@@ -28,13 +28,13 @@ app.get("/", function (req, res) {
   //   res.send(`<h1>Hello from Node App. Version: ${process.versions.node}</h1>`);
 });
 
-// const uri = process.env.ATLAS_URI;
-// mongoose.connect(uri, {});
+const uri = process.env.ATLAS_URI;
+mongoose.connect(uri, {});
 
-// const connection = mongoose.connection;
-// connection.once("open", () => {
-//   console.log("MongoDB database connection established successfully");
-// });
+const connection = mongoose.connection;
+connection.once("open", () => {
+  console.log("MongoDB database connection established successfully");
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
