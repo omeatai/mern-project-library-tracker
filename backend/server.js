@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const app = express();
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 8000;
 
 const booksRouter = require("./routes/books");
 const usersRouter = require("./routes/users");
