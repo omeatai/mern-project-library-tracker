@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "start": "pm2 start server.js -i 2",
+    "restart": "pm2 restart server.js",
     "stop": "pm2 stop all",
     "delete": "pm2 delete all"
   },
