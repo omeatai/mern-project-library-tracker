@@ -9,7 +9,8 @@
     "start": "pm2 start server.js -i 2",
     "restart": "pm2 restart server.js",
     "stop": "pm2 stop all",
-    "delete": "pm2 delete all"
+    "delete": "pm2 delete all",
+    "logs": "pm2 logs"
   },
   "keywords": [],
   "author": "",
