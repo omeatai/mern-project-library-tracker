@@ -7,12 +7,6 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.get("/", function (req, res) {
-  res.set("Content-Type", "text/html; charset=utf-8");
-  res.send(`<h1>Hello from Node App.</h1>`);
-  //   res.send(`<h1>Hello from Node App. Version: ${process.versions.node}</h1>`);
-});
-
 const booksRouter = require("./routes/books");
 const usersRouter = require("./routes/users");
 
@@ -30,7 +24,8 @@ app.use("/users", usersRouter);
 
 app.get("/", function (req, res) {
   res.set("Content-Type", "text/html; charset=utf-8");
-  res.send(`<h1>Hello from Node App. Version: ${process.versions.node}</h1>`);
+  res.send(`<h1>Hello from Node App.</h1>`);
+  //   res.send(`<h1>Hello from Node App. Version: ${process.versions.node}</h1>`);
 });
 
 // const uri = process.env.ATLAS_URI;
