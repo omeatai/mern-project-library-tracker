@@ -518,14 +518,35 @@ yarn add react-toastify
 # #End</details>
 
 <details>
-<summary>22. Deploy Project with CI/CD </summary>
+<summary>22. Deploy Project to cPanel Host with CI/CD </summary>
 
-# Deploy Project with CI/CD
+# Deploy Project to cPanel Host with CI/CD
 
-<img width="1146" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/8498cc6f-bad3-4b98-9f3f-dfc5df9a094d">
+### [https://github.com/omeatai/mern-project-library-tracker/commit/5510b001fa11f2bef1a441a81d6befd6bd25e8c1](https://github.com/omeatai/mern-project-library-tracker/commit/5510b001fa11f2bef1a441a81d6befd6bd25e8c1)
+
+### [https://github.com/SamKirkland/FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action)
+
+<img width="1096" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/f356a724-d0cb-40f0-a52a-b6ab70c4db86">
+<img width="1096" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/eca5be29-e943-4330-9a2c-7afd0815bf20">
+<img width="1096" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/b8bb29c3-df55-480a-a501-f8fe6263494c">
 <img width="1318" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/8dc7c5e6-e5eb-46c7-89bf-639021d07146">
+<img width="1344" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0659160e-59b3-442e-8e9a-100b191bb5a4">
+<img width="1344" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/b1862212-c679-4c31-ab57-025b7da8bb4a">
+<img width="1344" alt="Screenshot 2023-11-28 at 3 14 06 PM" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/ffd4023f-eb19-4c11-b730-4cec426c98b6">
+<img width="1260" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/4d69a9f9-f0b9-462d-a42d-2ad623453f0a">
 
+# #End</details>
 
+<details>
+<summary>23. Refactor NODE_ENV with PROD Settings </summary>
+
+# Refactor NODE_ENV with PROD Settings
+
+### [https://github.com/omeatai/mern-project-library-tracker/commit/0b3dd8428261f6fc99f4da32b4f8edb6087f699a](https://github.com/omeatai/mern-project-library-tracker/commit/0b3dd8428261f6fc99f4da32b4f8edb6087f699a)
+
+<img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3b2e60fa-8854-4a01-9a7a-aec7ed205365">
+<img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0c41c414-6129-45e5-88c0-9fcee7166fcc">
+<img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/07176a37-b255-457e-ae40-f95fdd541427">
 
 
 # #End</details>
