@@ -25,7 +25,7 @@ const EditUser = () => {
       .catch((error) => {
         console.error(error);
       });
-  }, [id, setUser]);
+  }, [id, setUser, REACT_APP_HOST]);
 
   return (
     <main className="m-8" ref={topRef}>
