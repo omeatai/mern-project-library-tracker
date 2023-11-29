@@ -4,6 +4,12 @@
 
 This is a modern Library Borrow Tracker application built with React, Node, Express and MongoDB by Ifeanyi Omeata.
 
+The Library Borrow Tracker application is a comprehensive tool designed to streamline the process of managing book borrowings in a library setting. The application offers a user-friendly interface for library assistants to efficiently record and track users' borrowing activities.
+
+The workflow begins with the "Create User" page, where the borrower's name is registered, and a corresponding entry is listed on the "List User" page. Subsequently, on the "Create Borrowed Book" page, the library assistant can select the borrower's name from the available options and input details of the book to be borrowed. This includes information such as title, author, genre, ISBN, published date, description, and the desired duration of the loan in days.
+
+The application ensures accurate tracking of borrowed books, and the "List Borrowed Book" page displays a comprehensive overview of all books that have been borrowed, along with their relevant information. This systematic approach facilitates efficient library management and enhances the overall borrowing experience for both library staff and users.
+
 ## Development Tools/Stack
 
 - React [https://react.dev/](https://react.dev/)
