@@ -4,6 +4,12 @@
 
 This is a modern Library Borrow Tracker application built with React, Node, Express and MongoDB by Ifeanyi Omeata.
 
+The Library Borrow Tracker application is a comprehensive tool designed to streamline the process of managing book borrowings in a library setting. The application offers a user-friendly interface for library assistants to efficiently record and track users' borrowing activities.
+
+The workflow begins with the "Create User" page, where the borrower's name is registered, and a corresponding entry is listed on the "List User" page. Subsequently, on the "Create Borrowed Book" page, the library assistant can select the borrower's name from the available options and input details of the book to be borrowed. This includes information such as title, author, genre, ISBN, published date, description, and the desired duration of the loan in days.
+
+The application ensures accurate tracking of borrowed books, and the "List Borrowed Book" page displays a comprehensive overview of all books that have been borrowed, along with their relevant information. This systematic approach facilitates efficient library management and enhances the overall borrowing experience for both library staff and users.
+
 ## Development Tools/Stack
 
 - React [https://react.dev/](https://react.dev/)
@@ -17,6 +23,11 @@ This is a modern Library Borrow Tracker application built with React, Node, Expr
 - Axios [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
 
 ## Demo
+
+### [https://ltracker.ifeanyiomeata.com/create](https://ltracker.ifeanyiomeata.com/create)
+
+<img width="1260" alt="Screenshot 2023-11-29 at 10 05 14 AM" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/faaafcb1-4914-4529-8de5-f7361d967b79">
+
 
 ## Project Steps (Tutorial)
 
@@ -544,9 +555,13 @@ yarn add react-toastify
 
 ### [https://github.com/omeatai/mern-project-library-tracker/commit/0b3dd8428261f6fc99f4da32b4f8edb6087f699a](https://github.com/omeatai/mern-project-library-tracker/commit/0b3dd8428261f6fc99f4da32b4f8edb6087f699a)
 
+### [https://ltracker.ifeanyiomeata.com/](https://ltracker.ifeanyiomeata.com/)
+
 <img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3b2e60fa-8854-4a01-9a7a-aec7ed205365">
 <img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/0c41c414-6129-45e5-88c0-9fcee7166fcc">
 <img width="1095" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/07176a37-b255-457e-ae40-f95fdd541427">
+<img width="1260" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/3d36bd8e-148c-45d0-9bc9-c197166e6eb2">
+<img width="1260" alt="image" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/374f55d5-2956-490c-aaa7-356dc9091593">
 
 
 # #End</details>
