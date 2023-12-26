@@ -24,7 +24,7 @@ The application ensures accurate tracking of borrowed books, and the "List Borro
 
 ## Demo
 
-### [https://ltracker.ifeanyiomeata.com/create](https://ltracker.ifeanyiomeata.com/create)
+### [https://ltracker.ifeanyiomeata.com/](https://ltracker.ifeanyiomeata.com/)
 
 <img width="1260" alt="Screenshot 2023-11-29 at 10 05 14 AM" src="https://github.com/omeatai/mern-project-library-tracker/assets/32337103/faaafcb1-4914-4529-8de5-f7361d967b79">
 
